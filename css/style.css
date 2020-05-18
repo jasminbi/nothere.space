@@ -1,3 +1,9 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
 /* Index */
 
 #index-table {
@@ -63,13 +69,13 @@ table tr td:last-child {
 
 /* Raum Gone */
 
-.raum {
+/* .raum {
   width: 80vw;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
+} */
 
 .nav-back {
   position: fixed;
@@ -77,4 +83,12 @@ table tr td:last-child {
   left: 5vw;
   font-size: 30px;
   color: black;
+}
+
+.background {
+  background-image: url("../img/raum_gone.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

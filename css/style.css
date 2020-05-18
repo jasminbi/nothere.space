@@ -92,3 +92,48 @@ table tr td:last-child {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+#top a {
+  position: fixed;
+  top: 0;
+  left: 25vw;
+  width: 50vw;
+  height: 30vh;
+  background-color: blueviolet;
+}
+
+#bottom a {
+  position: fixed;
+  bottom: 0;
+  left: 25vw;
+  width: 50vw;
+  height: 30vh;
+  background-color: blueviolet;
+}
+
+#center a {
+  position: fixed;
+  top: 30vh;
+  left: 25vw;
+  width: 50vw;
+  height: 40vh;
+  background-color: pink;
+}
+
+#left a {
+  position: fixed;
+  top: 20vh;
+  left: 0;
+  width: 25vw;
+  height: 60vh;
+  background-color: blue;
+}
+
+#right a {
+  position: fixed;
+  top: 20vh;
+  right: 0;
+  width: 25vw;
+  height: 60vh;
+  background-color: blue;
+}

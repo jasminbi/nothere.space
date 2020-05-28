@@ -1,6 +1,5 @@
 body,
 html {
-  height: 100%;
   margin: 0;
 }
 
@@ -85,13 +84,13 @@ table tr td:last-child {
   color: black;
 }
 
-.background {
-  background-image: url("../img/raum_gone.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.fullscreen {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
 }
+
 
 #top a {
   position: fixed;
@@ -99,7 +98,7 @@ table tr td:last-child {
   left: 25vw;
   width: 50vw;
   height: 30vh;
-  /* background-color: blueviolet; */
+  background-color: blueviolet;
 }
 
 #bottom a {
@@ -108,7 +107,7 @@ table tr td:last-child {
   left: 25vw;
   width: 50vw;
   height: 30vh;
-  /* background-color: blueviolet; */
+  background-color: blueviolet;
 }
 
 #center a {
@@ -117,7 +116,7 @@ table tr td:last-child {
   left: 25vw;
   width: 50vw;
   height: 40vh;
-  /* background-color: pink; */
+  background-color: pink;
 }
 
 #left a {
@@ -126,7 +125,7 @@ table tr td:last-child {
   left: 0;
   width: 25vw;
   height: 60vh;
-  /* background-color: blue; */
+  background-color: blue;
 }
 
 #right a {

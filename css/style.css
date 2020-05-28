@@ -91,48 +91,52 @@ table tr td:last-child {
   object-fit: cover;
 }
 
-
-#top a {
+#top {
   position: fixed;
   top: 0;
   left: 25vw;
   width: 50vw;
   height: 30vh;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
+  cursor: pointer;
 }
 
-#bottom a {
+#bottom {
   position: fixed;
   bottom: 0;
   left: 25vw;
   width: 50vw;
   height: 30vh;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
+  cursor: pointer;
 }
 
-#center a {
+#center {
   position: fixed;
   top: 30vh;
   left: 25vw;
   width: 50vw;
   height: 40vh;
-  background-color: pink;
+  /* background-color: pink; */
+  cursor: pointer;
 }
 
-#left a {
+#left {
   position: fixed;
   top: 20vh;
   left: 0;
   width: 25vw;
   height: 60vh;
-  background-color: blue;
+  /* background-color: blue; */
+  cursor: pointer;
 }
 
-#right a {
+#right {
   position: fixed;
   top: 20vh;
   right: 0;
   width: 25vw;
   height: 60vh;
-  background-color: blue;
+  /* background-color: blue; */
+  cursor: pointer;
 }

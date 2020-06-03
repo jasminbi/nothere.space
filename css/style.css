@@ -193,24 +193,12 @@ div[class^="room"]:nth-child(5) {
   line-height: 100px;
 }
 
+/* connect two rooms */
 div[class^="room"]:nth-child(5):before {
-  top: 30px;
-  left: -4px;
-  height: 60px;
-  border: 1px solid #fff;
-}
-
-div[class^="room"]:nth-child(5):after {
-  right: -5px;
-  bottom: 10%;
-  height: 30px;
-  width: 30px;
-  border-width: 2px 5px 3px 2px;
-  border-style: solid solid double solid;
-  border-color: black #f7f7f7 black black;
-  -moz-border-radius: 32px 0 0 0;
-  -webkit-border-radius: 32px 0 0 0;
-  border-radius: 32px 0 0 0;
+  left: 0;
+  top: -6px;
+  width: 60px;
+  border: 5px solid #fff;
 }
 
 div[class^="room"]:nth-child(6) {

@@ -56,7 +56,7 @@ table tr td:last-child {
 .start {
   position: relative;
   top: 106px;
-  left: -20px;
+  left: -40px;
   width: 0;
   height: 0;
   border-top: 20px solid transparent;

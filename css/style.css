@@ -49,19 +49,19 @@ table tr td:last-child {
 /******************************************/
 
 #plan {
-  margin: 25px 35%;
-  width: 400px;
+  margin: 25px auto;
+  width: 800px;
 }
 
 .start {
   position: relative;
-  top: 53px;
+  top: 106px;
   left: -20px;
   width: 0;
   height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 10px solid pink;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid pink;
 }
 
 .room {
@@ -88,7 +88,7 @@ table tr td:last-child {
   margin-left: auto;
   margin-right: auto;
   font-family: "Courier New", Courier, monospace;
-  font-size: 1.2em;
+  font-size: 2em;
   font-weight: bold;
   color: black;
 }
@@ -96,8 +96,8 @@ table tr td:last-child {
 div[class^="room"]:nth-child(2) {
   left: 0;
   top: 0;
-  width: 180px;
-  height: 77px;
+  width: 360px;
+  height: 154px;
   border-left-color: transparent;
   border-right-color: transparent;
 }
@@ -106,33 +106,35 @@ div[class^="room"]:nth-child(2) {
 div[class^="room"]:nth-child(2)::before {
   left: -2px;
   bottom: -2px;
-  height: 33px;
-  width: 25px;
+  height: 66px;
+  width: 50px;
   border-width: 3px 2px 2px 2px;
   border-style: double solid solid solid;
   border-color: black black black transparent;
-  -moz-border-radius: 0 0 27px 0;
-  -webkit-border-radius: 0 0 27px 0;
-  border-radius: 0 0 27px 0;
+  -moz-border-radius: 0 0 50px 0;
+  -webkit-border-radius: 0 0 50px 0;
+  border-radius: 0 0 50px 0;
 }
 
 /* Front door (second half)*/
 div[class^="room"]:nth-child(2):after {
   top: -2px;
   left: -2px;
-  height: 33px;
-  width: 25px;
+  height: 66px;
+  width: 50px;
   border-width: 2px 2px 3px 2px;
   border-style: solid solid double solid;
   border-color: black black black transparent;
-  border-radius: 0 27px 0 0;
+  -moz-border-radius: 0 0 50px 0;
+  -webkit-border-radius: 0 0 50px 0;
+  border-radius: 0 50px 0 0;
 }
 
 div[class^="room"]:nth-child(3) {
-  left: 180px;
-  top: -87px;
-  width: 200px;
-  height: 150px;
+  left: 360px;
+  top: -164px;
+  width: 400px;
+  height: 300px;
   border-left-color: transparent;
   line-height: 100px;
 }
@@ -140,56 +142,56 @@ div[class^="room"]:nth-child(3) {
 div[class^="room"]:nth-child(3)::before {
   top: -4px;
   left: 45%;
-  width: 60px;
+  width: 120px;
   border-top: 2px solid #fff;
 }
 
 div[class^="room"]:nth-child(3)::after {
-  left: 25px;
+  left: 50px;
   bottom: -5px;
-  height: 30px;
-  width: 30px;
+  height: 60px;
+  width: 60px;
   border-width: 2px 2px 6px 3px;
   border-style: solid solid solid double;
-  border-color: black black #f7f7f7 black;
-  -moz-border-radius: 0 32px 0 0;
-  -webkit-border-radius: 0 32px 0 0;
-  border-radius: 0 32px 0 0;
+  border-color: black black #ffffff black;
+  -moz-border-radius: 0 50px 0 0;
+  -webkit-border-radius: 0 50px 0 0;
+  border-radius: 0 50px 0 0;
 }
 
 div[class^="room"]:nth-child(4) {
-  left: 1px;
-  top: -165px;
-  width: 177px;
-  height: 140px;
+  left: 2px;
+  top: -315px;
+  width: 354px;
+  height: 280px;
   line-height: 100px;
 }
 
 div[class^="room"]:nth-child(4)::before {
-  top: 30px;
+  top: 60px;
   left: -4px;
-  height: 60px;
+  height: 120px;
   border: 1px solid #fff;
 }
 
 div[class^="room"]:nth-child(4):after {
   right: -5px;
   bottom: 10%;
-  height: 30px;
-  width: 30px;
+  height: 60px;
+  width: 60px;
   border-width: 2px 5px 3px 2px;
   border-style: solid solid double solid;
-  border-color: black #f7f7f7 black black;
-  -moz-border-radius: 32px 0 0 0;
-  -webkit-border-radius: 32px 0 0 0;
-  border-radius: 32px 0 0 0;
+  border-color: black #ffffff black black;
+  -moz-border-radius: 50px 0 0 0;
+  -webkit-border-radius: 50px 0 0 0;
+  border-radius: 50px 0 0 0;
 }
 
 div[class^="room"]:nth-child(5) {
-  left: 1px;
-  top: -169px;
-  width: 177px;
-  height: 140px;
+  left: 2px;
+  top: -320px;
+  width: 354px;
+  height: 280px;
   line-height: 100px;
 }
 
@@ -197,15 +199,15 @@ div[class^="room"]:nth-child(5) {
 div[class^="room"]:nth-child(5):before {
   left: 0;
   top: -6px;
-  width: 60px;
+  width: 120px;
   border: 5px solid #fff;
 }
 
 div[class^="room"]:nth-child(6) {
-  left: 188px;
-  top: -406px;
-  width: 197px;
-  height: 213px;
+  left: 360px;
+  top: -783px;
+  width: 405px;
+  height: 426px;
   line-height: 190px;
   border-top: transparent;
   border-left: transparent;
@@ -214,7 +216,7 @@ div[class^="room"]:nth-child(6) {
 div[class^="room"]:nth-child(6):before {
   top: 30px;
   right: -4px;
-  height: 60px;
+  height: 120px;
   border: 1px solid #fff;
 }
 

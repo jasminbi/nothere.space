@@ -7,6 +7,21 @@ html {
 }
 
 /******************************************/
+/*  Navigation                            */
+/******************************************/
+
+.nav-arrow {
+  font-size: 30px;
+  color: black;
+}
+
+.nav-left {
+  position: fixed;
+  top: 5vh;
+  left: 5vw;
+}
+
+/******************************************/
 /*  INDEX                              */
 /******************************************/
 
@@ -218,14 +233,6 @@ div[class^="room"]:nth-child(6):before {
   left: 50%;
   transform: translate(-50%, -50%);
 } */
-
-.nav-back {
-  position: fixed;
-  top: 5vh;
-  left: 5vw;
-  font-size: 30px;
-  color: black;
-}
 
 .fullscreen {
   display: block;

@@ -22,8 +22,13 @@ html {
   color: black;
   display: inline-block;
 }
+
+.disabled {
+  color: lightgray;
+}
 #nav-home {
   padding: 0 10px;
+  color: pink;
 }
 
 /******************************************/

@@ -14,15 +14,16 @@ html {
   position: fixed;
   top: 5vh;
   left: 5vw;
+  text-align: center;
 }
 
-.room-navigation a {
-  float: left;
-  padding: 14px;
-}
-.nav-arrow {
+.nav-item {
   font-size: 30px;
   color: black;
+  display: inline-block;
+}
+#nav-home {
+  padding: 0 10px;
 }
 
 /******************************************/
